@@ -62,7 +62,7 @@ Put **CARLA_Simulator** folder and **this repository** folder in the same folder
 
    `python ego_vehicle.py -s 1`
    
-   Note: Overtaking is still experimental and might fail in heavy traffic environment. Do not spawn vehicles for overtaking
+***Note: Overtaking is still experimental and might fail in heavy traffic environment. Do not spawn vehicles for overtaking***
  
 
 
