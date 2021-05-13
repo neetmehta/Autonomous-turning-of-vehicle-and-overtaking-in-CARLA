@@ -11,3 +11,6 @@ Windows 10
 #### Carla Simulator Installation
 Go to official [Carla Releases](https://github.com/carla-simulator/carla/releases) Github page.
 
+Download **[Linux] CARLA 0.9.8**, unzip the file and rename the folder as **CARLA_Simulator**. Additional maps are optional.
+
+Put **CARLA_Simulator** folder and **this repository** folder in the same folder. So the folder structure should look like:
