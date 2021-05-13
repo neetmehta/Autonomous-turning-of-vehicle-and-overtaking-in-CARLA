@@ -11,6 +11,59 @@ Windows 10
 #### Carla Simulator Installation
 Go to official [Carla Releases](https://github.com/carla-simulator/carla/releases) Github page.
 
-Download **[Linux] CARLA 0.9.8**, unzip the file and rename the folder as **CARLA_Simulator**. Additional maps are optional.
+Download **[Windows] CARLA 0.9.11**, unzip the file and rename the folder as **CARLA_0.9.11**. Additional maps are optional.
 
 Put **CARLA_Simulator** folder and **this repository** folder in the same folder. So the folder structure should look like:
+
+#### Other prerequisites
+
+`numpy`,  `opencv` and `pygame` should be correctly installed.
+
+
+## Run Instruction
+
+#### Performing Phase
+
+1. Go to **CARLA_0.9.11** folder,
+
+   `cd Carla/CARLA_0.9.11` 
+
+   run CARLA in Low Graphic Quality
+
+   `./CarlaUE4.sh -quality-level=Low`
+
+   or off-screen mode.
+
+   `DISPLAY= ./CarlaUE4.sh -opengl`
+   
+2. Go to the **environment folder** of **this repository**. 
+    There are options for generating different scenes. 
+    
+
+   To perform turning in empty city:
+
+   `python ego_vehicle.py`
+   
+   To perform turning in city with n=80 vehicles:
+   run `ego_vehicle.py` first
+   `python ego_vehicle
+   
+   Open new terminal. go to exaples directory of PythonAPI of carla repository
+   
+   `cd C:\CARLA_0.9.11\WindowsNoEditor\PythonAPI\examples`
+   
+   Spawn n=80 vehicle of how many you want
+   
+   `python spawn_npc.py -n 80`
+   
+
+   
+   To perform overtaking when there is one vehicle in front, generate scene 1 where only the ego vehicle exists by:
+
+   `python ego_vehicle.py -s 1`
+   
+   Note: Overtaking is still experimental and might fail in heavy traffic environment. Do not spawn vehicles for overtaking
+ 
+
+
+
