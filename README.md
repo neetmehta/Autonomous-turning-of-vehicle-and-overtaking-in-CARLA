@@ -66,6 +66,10 @@ Put **CARLA_Simulator** folder and **this repository** folder in the same folder
  
 ## Results
 
-<img src="https://imgflip.com/embed/59gt4c"> 
+<p align = "center">
+    <img src = "./demo/lane_following.gif">
+    <br>
+</p>
+
 
 
