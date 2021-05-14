@@ -34,7 +34,7 @@ Put **CARLA_Simulator** folder and **this repository** folder in the same folder
 
    or off-screen mode.
 
-   `DISPLAY= ./CarlaUE4.sh -opengl`
+   `DISPLAY= ./CarlaUE4.exe -opengl`
    
 2. Go to the **environment folder** of **this repository**. 
     There are options for generating different scenes. 
