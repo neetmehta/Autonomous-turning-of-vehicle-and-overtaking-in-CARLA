@@ -71,5 +71,10 @@ Put **CARLA_Simulator** folder and **this repository** folder in the same folder
     <br>
 </p>
 
+<p align = "center">
+    <img src = "./demo/overtake.gif">
+    <br>
+</p>
+
 
 
