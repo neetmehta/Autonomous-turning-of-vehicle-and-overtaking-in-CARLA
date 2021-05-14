@@ -67,7 +67,7 @@ Put **CARLA_Simulator** folder and **this repository** folder in the same folder
 ## Results
 
 <p align = "center">
-    <img src = "./demo/lane_following.gif">
+    <img src = "./demo/demo_gif.gif">
     <br>
 </p>
 
